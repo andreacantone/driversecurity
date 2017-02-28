@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6232411E658A3F00F778B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232401E658A3F00F778B9 /* AppDelegate.swift */; };
+		3C6232431E658A3F00F778B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232421E658A3F00F778B9 /* ViewController.swift */; };
+		3C6232461E658A3F00F778B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232441E658A3F00F778B9 /* Main.storyboard */; };
+		3C6232481E658A3F00F778B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232471E658A3F00F778B9 /* Assets.xcassets */; };
+		3C62324B1E658A3F00F778B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232491E658A3F00F778B9 /* LaunchScreen.storyboard */; };
+		3C6232561E658A4000F778B9 /* driversecurityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232551E658A4000F778B9 /* driversecurityTests.swift */; };
+		3C6232611E658A4000F778B9 /* driversecurityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232601E658A4000F778B9 /* driversecurityUITests.swift */; };
+		3C6232661E658A4000F778B9 /* driversecurity WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C6232651E658A4000F778B9 /* driversecurity WatchKit App.app */; };
+		3C62326C1E658A4000F778B9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C62326A1E658A4000F778B9 /* Interface.storyboard */; };
+		3C62326E1E658A4000F778B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C62326D1E658A4000F778B9 /* Assets.xcassets */; };
+		3C6232751E658A4000F778B9 /* driversecurity WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C6232741E658A4000F778B9 /* driversecurity WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C62327C1E658A4000F778B9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62327B1E658A4000F778B9 /* InterfaceController.swift */; };
+		3C62327E1E658A4000F778B9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62327D1E658A4000F778B9 /* ExtensionDelegate.swift */; };
+		3C6232801E658A4000F778B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62327F1E658A4000F778B9 /* NotificationController.swift */; };
+		3C6232821E658A4000F778B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232811E658A4000F778B9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6232521E658A4000F778B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6232351E658A3F00F778B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C62323C1E658A3F00F778B9;
+			remoteInfo = driversecurity;
+		};
+		3C62325D1E658A4000F778B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6232351E658A3F00F778B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C62323C1E658A3F00F778B9;
+			remoteInfo = driversecurity;
+		};
+		3C6232671E658A4000F778B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6232351E658A3F00F778B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6232641E658A4000F778B9;
+			remoteInfo = "driversecurity WatchKit App";
+		};
+		3C6232761E658A4000F778B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6232351E658A3F00F778B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6232731E658A4000F778B9;
+			remoteInfo = "driversecurity WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C6232891E658A4000F778B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C6232751E658A4000F778B9 /* driversecurity WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62328D1E658A4000F778B9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C6232661E658A4000F778B9 /* driversecurity WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C62323D1E658A3F00F778B9 /* driversecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driversecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6232401E658A3F00F778B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C6232421E658A3F00F778B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C6232451E658A3F00F778B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6232471E658A3F00F778B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C62324A1E658A3F00F778B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C62324C1E658A3F00F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6232511E658A4000F778B9 /* driversecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driversecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6232551E658A4000F778B9 /* driversecurityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driversecurityTests.swift; sourceTree = "<group>"; };
+		3C6232571E658A4000F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C62325C1E658A4000F778B9 /* driversecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driversecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6232601E658A4000F778B9 /* driversecurityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driversecurityUITests.swift; sourceTree = "<group>"; };
+		3C6232621E658A4000F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6232651E658A4000F778B9 /* driversecurity WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "driversecurity WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C62326B1E658A4000F778B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3C62326D1E658A4000F778B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C62326F1E658A4000F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6232741E658A4000F778B9 /* driversecurity WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "driversecurity WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C62327A1E658A4000F778B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3C62327B1E658A4000F778B9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3C62327D1E658A4000F778B9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3C62327F1E658A4000F778B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3C6232811E658A4000F778B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6232831E658A4000F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C62323A1E658A3F00F778B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62324E1E658A3F00F778B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232591E658A4000F778B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232711E658A4000F778B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6232341E658A3F00F778B9 = {
+			isa = PBXGroup;
+			children = (
+				3C62323F1E658A3F00F778B9 /* driversecurity */,
+				3C6232541E658A4000F778B9 /* driversecurityTests */,
+				3C62325F1E658A4000F778B9 /* driversecurityUITests */,
+				3C6232691E658A4000F778B9 /* driversecurity WatchKit App */,
+				3C6232781E658A4000F778B9 /* driversecurity WatchKit Extension */,
+				3C62323E1E658A3F00F778B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C62323E1E658A3F00F778B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C62323D1E658A3F00F778B9 /* driversecurity.app */,
+				3C6232511E658A4000F778B9 /* driversecurityTests.xctest */,
+				3C62325C1E658A4000F778B9 /* driversecurityUITests.xctest */,
+				3C6232651E658A4000F778B9 /* driversecurity WatchKit App.app */,
+				3C6232741E658A4000F778B9 /* driversecurity WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C62323F1E658A3F00F778B9 /* driversecurity */ = {
+			isa = PBXGroup;
+			children = (
+				3C6232401E658A3F00F778B9 /* AppDelegate.swift */,
+				3C6232421E658A3F00F778B9 /* ViewController.swift */,
+				3C6232441E658A3F00F778B9 /* Main.storyboard */,
+				3C6232471E658A3F00F778B9 /* Assets.xcassets */,
+				3C6232491E658A3F00F778B9 /* LaunchScreen.storyboard */,
+				3C62324C1E658A3F00F778B9 /* Info.plist */,
+			);
+			path = driversecurity;
+			sourceTree = "<group>";
+		};
+		3C6232541E658A4000F778B9 /* driversecurityTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6232551E658A4000F778B9 /* driversecurityTests.swift */,
+				3C6232571E658A4000F778B9 /* Info.plist */,
+			);
+			path = driversecurityTests;
+			sourceTree = "<group>";
+		};
+		3C62325F1E658A4000F778B9 /* driversecurityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6232601E658A4000F778B9 /* driversecurityUITests.swift */,
+				3C6232621E658A4000F778B9 /* Info.plist */,
+			);
+			path = driversecurityUITests;
+			sourceTree = "<group>";
+		};
+		3C6232691E658A4000F778B9 /* driversecurity WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C62326A1E658A4000F778B9 /* Interface.storyboard */,
+				3C62326D1E658A4000F778B9 /* Assets.xcassets */,
+				3C62326F1E658A4000F778B9 /* Info.plist */,
+			);
+			path = "driversecurity WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C6232781E658A4000F778B9 /* driversecurity WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C62327B1E658A4000F778B9 /* InterfaceController.swift */,
+				3C62327D1E658A4000F778B9 /* ExtensionDelegate.swift */,
+				3C62327F1E658A4000F778B9 /* NotificationController.swift */,
+				3C6232811E658A4000F778B9 /* Assets.xcassets */,
+				3C6232831E658A4000F778B9 /* Info.plist */,
+				3C6232791E658A4000F778B9 /* Supporting Files */,
+			);
+			path = "driversecurity WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3C6232791E658A4000F778B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C62327A1E658A4000F778B9 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C62323C1E658A3F00F778B9 /* driversecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C62328E1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity" */;
+			buildPhases = (
+				3C6232391E658A3F00F778B9 /* Sources */,
+				3C62323A1E658A3F00F778B9 /* Frameworks */,
+				3C62323B1E658A3F00F778B9 /* Resources */,
+				3C62328D1E658A4000F778B9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6232681E658A4000F778B9 /* PBXTargetDependency */,
+			);
+			name = driversecurity;
+			productName = driversecurity;
+			productReference = 3C62323D1E658A3F00F778B9 /* driversecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6232501E658A3F00F778B9 /* driversecurityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6232911E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityTests" */;
+			buildPhases = (
+				3C62324D1E658A3F00F778B9 /* Sources */,
+				3C62324E1E658A3F00F778B9 /* Frameworks */,
+				3C62324F1E658A3F00F778B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6232531E658A4000F778B9 /* PBXTargetDependency */,
+			);
+			name = driversecurityTests;
+			productName = driversecurityTests;
+			productReference = 3C6232511E658A4000F778B9 /* driversecurityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C62325B1E658A4000F778B9 /* driversecurityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6232941E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityUITests" */;
+			buildPhases = (
+				3C6232581E658A4000F778B9 /* Sources */,
+				3C6232591E658A4000F778B9 /* Frameworks */,
+				3C62325A1E658A4000F778B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C62325E1E658A4000F778B9 /* PBXTargetDependency */,
+			);
+			name = driversecurityUITests;
+			productName = driversecurityUITests;
+			productReference = 3C62325C1E658A4000F778B9 /* driversecurityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C6232641E658A4000F778B9 /* driversecurity WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C62328A1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit App" */;
+			buildPhases = (
+				3C6232631E658A4000F778B9 /* Resources */,
+				3C6232891E658A4000F778B9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6232771E658A4000F778B9 /* PBXTargetDependency */,
+			);
+			name = "driversecurity WatchKit App";
+			productName = "driversecurity WatchKit App";
+			productReference = 3C6232651E658A4000F778B9 /* driversecurity WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3C6232731E658A4000F778B9 /* driversecurity WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6232861E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit Extension" */;
+			buildPhases = (
+				3C6232701E658A4000F778B9 /* Sources */,
+				3C6232711E658A4000F778B9 /* Frameworks */,
+				3C6232721E658A4000F778B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "driversecurity WatchKit Extension";
+			productName = "driversecurity WatchKit Extension";
+			productReference = 3C6232741E658A4000F778B9 /* driversecurity WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6232351E658A3F00F778B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cantone Andrea Antonio";
+				TargetAttributes = {
+					3C62323C1E658A3F00F778B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93JF9LS6ZY;
+						ProvisioningStyle = Automatic;
+					};
+					3C6232501E658A3F00F778B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93JF9LS6ZY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C62323C1E658A3F00F778B9;
+					};
+					3C62325B1E658A4000F778B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93JF9LS6ZY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C62323C1E658A3F00F778B9;
+					};
+					3C6232641E658A4000F778B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93JF9LS6ZY;
+						ProvisioningStyle = Automatic;
+					};
+					3C6232731E658A4000F778B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93JF9LS6ZY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C6232381E658A3F00F778B9 /* Build configuration list for PBXProject "driversecurity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6232341E658A3F00F778B9;
+			productRefGroup = 3C62323E1E658A3F00F778B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C62323C1E658A3F00F778B9 /* driversecurity */,
+				3C6232501E658A3F00F778B9 /* driversecurityTests */,
+				3C62325B1E658A4000F778B9 /* driversecurityUITests */,
+				3C6232641E658A4000F778B9 /* driversecurity WatchKit App */,
+				3C6232731E658A4000F778B9 /* driversecurity WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C62323B1E658A3F00F778B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C62324B1E658A3F00F778B9 /* LaunchScreen.storyboard in Resources */,
+				3C6232481E658A3F00F778B9 /* Assets.xcassets in Resources */,
+				3C6232461E658A3F00F778B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62324F1E658A3F00F778B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62325A1E658A4000F778B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232631E658A4000F778B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C62326E1E658A4000F778B9 /* Assets.xcassets in Resources */,
+				3C62326C1E658A4000F778B9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232721E658A4000F778B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6232821E658A4000F778B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6232391E658A3F00F778B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6232431E658A3F00F778B9 /* ViewController.swift in Sources */,
+				3C6232411E658A3F00F778B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62324D1E658A3F00F778B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6232561E658A4000F778B9 /* driversecurityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232581E658A4000F778B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6232611E658A4000F778B9 /* driversecurityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6232701E658A4000F778B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6232801E658A4000F778B9 /* NotificationController.swift in Sources */,
+				3C62327E1E658A4000F778B9 /* ExtensionDelegate.swift in Sources */,
+				3C62327C1E658A4000F778B9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6232531E658A4000F778B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C62323C1E658A3F00F778B9 /* driversecurity */;
+			targetProxy = 3C6232521E658A4000F778B9 /* PBXContainerItemProxy */;
+		};
+		3C62325E1E658A4000F778B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C62323C1E658A3F00F778B9 /* driversecurity */;
+			targetProxy = 3C62325D1E658A4000F778B9 /* PBXContainerItemProxy */;
+		};
+		3C6232681E658A4000F778B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6232641E658A4000F778B9 /* driversecurity WatchKit App */;
+			targetProxy = 3C6232671E658A4000F778B9 /* PBXContainerItemProxy */;
+		};
+		3C6232771E658A4000F778B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6232731E658A4000F778B9 /* driversecurity WatchKit Extension */;
+			targetProxy = 3C6232761E658A4000F778B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C6232441E658A3F00F778B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6232451E658A3F00F778B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6232491E658A3F00F778B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C62324A1E658A3F00F778B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C62326A1E658A4000F778B9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C62326B1E658A4000F778B9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6232841E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6232851E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6232871E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = "driversecurity WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3C6232881E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = "driversecurity WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3C62328B1E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				IBSC_MODULE = driversecurity_WatchKit_Extension;
+				INFOPLIST_FILE = "driversecurity WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3C62328C1E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				IBSC_MODULE = driversecurity_WatchKit_Extension;
+				INFOPLIST_FILE = "driversecurity WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3C62328F1E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C6232901E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C6232921E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driversecurity.app/driversecurity";
+			};
+			name = Debug;
+		};
+		3C6232931E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driversecurity.app/driversecurity";
+			};
+			name = Release;
+		};
+		3C6232951E658A4000F778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = driversecurity;
+			};
+			name = Debug;
+		};
+		3C6232961E658A4000F778B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
+				INFOPLIST_FILE = driversecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = driversecurity.driversecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = driversecurity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6232381E658A3F00F778B9 /* Build configuration list for PBXProject "driversecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6232841E658A4000F778B9 /* Debug */,
+				3C6232851E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6232861E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6232871E658A4000F778B9 /* Debug */,
+				3C6232881E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C62328A1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C62328B1E658A4000F778B9 /* Debug */,
+				3C62328C1E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C62328E1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C62328F1E658A4000F778B9 /* Debug */,
+				3C6232901E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C6232911E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6232921E658A4000F778B9 /* Debug */,
+				3C6232931E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C6232941E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6232951E658A4000F778B9 /* Debug */,
+				3C6232961E658A4000F778B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6232351E658A3F00F778B9 /* Project object */;
+}
