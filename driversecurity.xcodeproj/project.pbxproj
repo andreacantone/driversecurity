@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069CF91E1E66DB4A009C8C70 /* PlayMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069CF91D1E66DB4A009C8C70 /* PlayMusic.swift */; };
 		3C6232411E658A3F00F778B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232401E658A3F00F778B9 /* AppDelegate.swift */; };
 		3C6232431E658A3F00F778B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6232421E658A3F00F778B9 /* ViewController.swift */; };
 		3C6232461E658A3F00F778B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232441E658A3F00F778B9 /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		069CF91D1E66DB4A009C8C70 /* PlayMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusic.swift; sourceTree = "<group>"; };
 		3C62323D1E658A3F00F778B9 /* driversecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driversecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6232401E658A3F00F778B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6232421E658A3F00F778B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				3C6232811E658A4000F778B9 /* Assets.xcassets */,
 				3C6232831E658A4000F778B9 /* Info.plist */,
 				3C6232791E658A4000F778B9 /* Supporting Files */,
+				069CF91D1E66DB4A009C8C70 /* PlayMusic.swift */,
 			);
 			path = "driversecurity WatchKit Extension";
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6232801E658A4000F778B9 /* NotificationController.swift in Sources */,
+				069CF91E1E66DB4A009C8C70 /* PlayMusic.swift in Sources */,
 				3C62327E1E658A4000F778B9 /* ExtensionDelegate.swift in Sources */,
 				3C62327C1E658A4000F778B9 /* InterfaceController.swift in Sources */,
 			);
@@ -777,6 +781,7 @@
 				3C6232881E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C62328A1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -785,6 +790,7 @@
 				3C62328C1E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C62328E1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity" */ = {
 			isa = XCConfigurationList;
@@ -793,6 +799,7 @@
 				3C6232901E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6232911E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -801,6 +808,7 @@
 				3C6232931E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6232941E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityUITests" */ = {
 			isa = XCConfigurationList;
@@ -809,6 +817,7 @@
 				3C6232961E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
