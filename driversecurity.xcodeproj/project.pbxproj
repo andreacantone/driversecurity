@@ -22,6 +22,8 @@
 		3C62327E1E658A4000F778B9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62327D1E658A4000F778B9 /* ExtensionDelegate.swift */; };
 		3C6232801E658A4000F778B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62327F1E658A4000F778B9 /* NotificationController.swift */; };
 		3C6232821E658A4000F778B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6232811E658A4000F778B9 /* Assets.xcassets */; };
+		D3B99D871E66E0DE00115BDE /* PointsInterestByMapsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B99D861E66E0DE00115BDE /* PointsInterestByMapsInterfaceController.swift */; };
+		D3B99D8B1E66EABD00115BDE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B99D8A1E66EABD00115BDE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		3C62327F1E658A4000F778B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		3C6232811E658A4000F778B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C6232831E658A4000F778B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B99D861E66E0DE00115BDE /* PointsInterestByMapsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsInterestByMapsInterfaceController.swift; sourceTree = "<group>"; };
+		D3B99D8A1E66EABD00115BDE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B99D8B1E66EABD00115BDE /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +153,7 @@
 				3C6232691E658A4000F778B9 /* driversecurity WatchKit App */,
 				3C6232781E658A4000F778B9 /* driversecurity WatchKit Extension */,
 				3C62323E1E658A3F00F778B9 /* Products */,
+				D3B99D891E66EABD00115BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +213,7 @@
 		3C6232781E658A4000F778B9 /* driversecurity WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D3B99D881E66E0E800115BDE /* LucaK */,
 				3C62327B1E658A4000F778B9 /* InterfaceController.swift */,
 				3C62327D1E658A4000F778B9 /* ExtensionDelegate.swift */,
 				3C62327F1E658A4000F778B9 /* NotificationController.swift */,
@@ -223,6 +230,22 @@
 				3C62327A1E658A4000F778B9 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3B99D881E66E0E800115BDE /* LucaK */ = {
+			isa = PBXGroup;
+			children = (
+				D3B99D861E66E0DE00115BDE /* PointsInterestByMapsInterfaceController.swift */,
+			);
+			name = LucaK;
+			sourceTree = "<group>";
+		};
+		D3B99D891E66EABD00115BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B99D8A1E66EABD00115BDE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B99D871E66E0DE00115BDE /* PointsInterestByMapsInterfaceController.swift in Sources */,
 				3C6232801E658A4000F778B9 /* NotificationController.swift in Sources */,
 				3C62327E1E658A4000F778B9 /* ExtensionDelegate.swift in Sources */,
 				3C62327C1E658A4000F778B9 /* InterfaceController.swift in Sources */,
@@ -777,6 +801,7 @@
 				3C6232881E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C62328A1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -785,6 +810,7 @@
 				3C62328C1E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C62328E1E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurity" */ = {
 			isa = XCConfigurationList;
@@ -793,6 +819,7 @@
 				3C6232901E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6232911E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -801,6 +828,7 @@
 				3C6232931E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6232941E658A4000F778B9 /* Build configuration list for PBXNativeTarget "driversecurityUITests" */ = {
 			isa = XCConfigurationList;
@@ -809,6 +837,7 @@
 				3C6232961E658A4000F778B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
